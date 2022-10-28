@@ -118,7 +118,7 @@ runtimes=1
   model7 = cv_xgboost(folds$Fold07,7)
   model8 = cv_xgboost(folds$Fold08,8)
   model9 = cv_xgboost(folds$Fold09,9)
-  model10 = cv_xgboost
+  model10 = cv_xgboost(folds$Fold10,10)
 
   pdf('./figures/importance_BIS.pdf',width=20,height=12)
   par(mfrow=c(2,5))
